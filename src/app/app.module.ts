@@ -10,9 +10,16 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import { MatChipsModule } from '@angular/material/chips';
 
+// Swiper
+import { SwiperModule } from 'swiper/angular';
+
+// Component
+import { SwiperComponent } from './component/parts/swiper/swiper.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SwiperComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,6 +28,7 @@ import { MatChipsModule } from '@angular/material/chips';
     MatSliderModule,
     MatButtonModule,
     MatChipsModule,
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
