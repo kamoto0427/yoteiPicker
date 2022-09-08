@@ -15,11 +15,13 @@ import { SwiperModule } from 'swiper/angular';
 
 // Component
 import { SwiperComponent } from './component/parts/swiper/swiper.component';
+import { PickButtonComponent } from './component/parts/button/pick-button/pick-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SwiperComponent,
+    PickButtonComponent,
   ],
   imports: [
     BrowserModule,
