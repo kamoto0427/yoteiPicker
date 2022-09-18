@@ -21,3 +21,33 @@ html {
   color: #000;
   text-align: center;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  height: 50px;
+  width: 50px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 50px;
+  margin: auto;
+  width: 50px;
+}
+
+/* 前への矢印カスタマイズ */
+.swiper-button-prev:after {
+  background-image: url('src/assets/img/left-icon.png');
+}
+/* 次への矢印カスタマイズ */
+.swiper-button-next:after {
+  background-image: url('src/assets/img/right-icon.png');
+}
+
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+}
