@@ -1,4 +1,4 @@
-<div>
+<ng-container>
   <div class="dummy-area"></div>
   <swiper
     [slidesPerView]="1.25"
@@ -11,15 +11,16 @@
   >
     <ng-template swiperSlide *ngFor="let y of yotei;">
       <div class="y-container">
-        <mat-chip>{{ y.category }}</mat-chip>
+        <mat-chip-list class="chip">
+          <mat-chip>{{ y.category }}</mat-chip>
+        </mat-chip-list>
         <div class="name">
           <p>{{ y.name }}</p>
         </div>
-        <div class="border"></div>
         <div class="message">{{ y.message }}</div>
         <div class="prefecture">{{ y.prefecture }}</div>
+        <app-pick-button></app-pick-button>
       </div>
-      <app-pick-button></app-pick-button>
     </ng-template>
   </swiper>
-</div>
+</ng-container>

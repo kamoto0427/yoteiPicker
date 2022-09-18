@@ -1,3 +1,8 @@
+.chip {
+  height: 12px;
+  font-size: 2px;
+}
+
 .dummy-area {
   width: 100%;
   height: 100px;
@@ -5,14 +10,14 @@
 
 .yotei-swiper {
   height: 380px;
+  border-radius: 10px;
 }
 
 .y-container {
+  height: 100%;
+  background-color: #FFFFFF;
   padding: 15px;
-}
-
-.border {
-  border: 1px solid #4A4A4A;
+  border-radius: 10px;
 }
 
 .name {
@@ -21,8 +26,18 @@
 }
 
 .name p {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
-  line-height: 80px;
+  line-height: 70px;
+}
+
+.mat-chip {
+  background: #F7B233;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+::ng-deep .swiper-slide {
+  border-radius: 10px;
 }
