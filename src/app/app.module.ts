@@ -26,6 +26,7 @@ import { SideBarComponent } from 'src/app/component/parts/side-bar/side-bar.comp
 import { FooterComponent } from 'src/app/component/parts/footer/footer.component';
 import { InfoComponent } from 'src/app/component/page/info/info.component';
 import { TopComponent } from 'src/app/component/page/top/top.component';
+import { PickUpComponent } from 'src/app/component/page/pick-up/pick-up.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { TopComponent } from 'src/app/component/page/top/top.component';
     FooterComponent,
     InfoComponent,
     TopComponent,
+    PickUpComponent,
   ],
   imports: [
     BrowserModule,
