@@ -1,0 +1,17 @@
+<app-header></app-header>
+  <div class="yotei-list-wrapper">
+    <div class="yotei-list-container">
+      <div class="title">yoteiPicker一覧</div>
+      <div class="content" *ngFor="let y of yotei;">
+        <table>
+          <tr>
+            <th>{{ y.category }}</th>
+            <td>{{ y.name }}</td>
+          </tr>
+        </table>
+        <mat-divider></mat-divider>
+      </div>
+    </div>
+    <div class="dummy-area"></div>
+  </div>
+<app-footer></app-footer>

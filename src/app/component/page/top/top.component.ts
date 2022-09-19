@@ -17,7 +17,7 @@ export class TopComponent implements OnInit {
     this.init();
   }
 
-    /**
+  /**
    * 初期化処理
    */
      public init() {
@@ -31,10 +31,6 @@ export class TopComponent implements OnInit {
    * mockからデータを取得
    */
   public getYoteiData() {
-    // サーバーからデータを取得
-    // this.yoteiChoiceService.getYoteiChoice().subscribe((yoteiChoice: YoteiChoice) => {
-    //   this.yotei;
-    // });
     return YoteiJson.yotei;
   }
 

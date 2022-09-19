@@ -19,4 +19,8 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['/']);
   }
 
+  goYoteiList() {
+    this.router.navigate(['yoteiList']);
+  }
+
 }

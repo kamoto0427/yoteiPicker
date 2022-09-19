@@ -27,6 +27,7 @@ import { FooterComponent } from 'src/app/component/parts/footer/footer.component
 import { InfoComponent } from 'src/app/component/page/info/info.component';
 import { TopComponent } from 'src/app/component/page/top/top.component';
 import { PickUpComponent } from 'src/app/component/page/pick-up/pick-up.component';
+import { YoteiListComponent } from 'src/app/component/page/yotei-list/yotei-list.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { PickUpComponent } from 'src/app/component/page/pick-up/pick-up.componen
     InfoComponent,
     TopComponent,
     PickUpComponent,
+    YoteiListComponent,
   ],
   imports: [
     BrowserModule,
