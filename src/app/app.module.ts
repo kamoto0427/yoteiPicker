@@ -19,11 +19,13 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { SwiperModule } from 'swiper/angular';
 
 // Component
-import { SwiperComponent } from './component/parts/swiper/swiper.component';
-import { PickButtonComponent } from './component/parts/button/pick-button/pick-button.component';
-import { HeaderComponent } from './component/parts/header/header.component';
-import { SideBarComponent } from './component/parts/side-bar/side-bar.component';
-import { FooterComponent } from './component/parts/footer/footer.component';
+import { SwiperComponent } from 'src/app/component/parts/swiper/swiper.component';
+import { PickButtonComponent } from 'src/app/component/parts/button/pick-button/pick-button.component';
+import { HeaderComponent } from 'src/app/component/parts/header/header.component';
+import { SideBarComponent } from 'src/app/component/parts/side-bar/side-bar.component';
+import { FooterComponent } from 'src/app/component/parts/footer/footer.component';
+import { InfoComponent } from 'src/app/component/page/info/info.component';
+import { TopComponent } from 'src/app/component/page/top/top.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { FooterComponent } from './component/parts/footer/footer.component';
     HeaderComponent,
     SideBarComponent,
     FooterComponent,
+    InfoComponent,
+    TopComponent,
   ],
   imports: [
     BrowserModule,
