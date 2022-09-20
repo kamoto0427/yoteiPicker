@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StorageService } from 'src/app/service/storage/storage.service';
 
 @Component({
   selector: 'app-pick-up',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PickUpComponent implements OnInit {
 
-  constructor() { }
+  public yotei: any;
+
+  constructor(
+    private storageService: StorageService
+  ) { }
 
   ngOnInit(): void {
+    this.yotei = this.storageService.getLocalData();
+  }
+
+  /**
+   * データを削除
+   */
+  public deleteData() {
+    this.storageService.deleteAllData();
   }
 
 }

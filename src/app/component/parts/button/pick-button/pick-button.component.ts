@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { StorageService } from 'src/app/service/storage/storage.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { StorageService } from 'src/app/service/storage/storage.service';
   styleUrls: ['./pick-button.component.css']
 })
 export class PickButtonComponent implements OnInit {
+  @Input() yotei: any;
 
   constructor(
     private storageService: StorageService
@@ -18,8 +19,9 @@ export class PickButtonComponent implements OnInit {
   /**
    * ローカルストレージにデータを保存する
    */
-  public onClickStore() {
-    this.storageService.storeLocal();
+  public storeYoteiData(yotei: any) {
+    const id = yotei.id;
+    this.storageService.storeLocal(id, yotei);
   }
 
 }

@@ -1,2 +1,13 @@
 <app-header></app-header>
+<div class="pick-title">PickUp一覧</div>
+<div class="pick-wrapper">
+  <div class="pick-container" *ngFor="let y of yotei;">
+    <table>
+      <tr>
+        <th>{{ y.category }}</th>
+        <td>{{ y.name }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
 <app-footer></app-footer>

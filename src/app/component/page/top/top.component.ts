@@ -20,12 +20,12 @@ export class TopComponent implements OnInit {
   /**
    * 初期化処理
    */
-     public init() {
-      // mockからデータを取得
-      const yoteiData = this.getYoteiData();
-      // ランダムな数字をもとに重複しないように配列を作成する
-      this.notDuplicationRandomArray(yoteiData);
-    }
+  public init() {
+    // mockからデータを取得
+    const yoteiData = this.getYoteiData();
+    // ランダムな数字をもとに重複しないように配列を作成する
+    this.notDuplicationRandomArray(yoteiData);
+  }
 
   /**
    * mockからデータを取得
