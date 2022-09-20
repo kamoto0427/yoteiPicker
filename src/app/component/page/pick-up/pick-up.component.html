@@ -1,5 +1,13 @@
 <app-header></app-header>
-<div class="pick-title">PickUp一覧</div>
+<div class="content">
+  <div class="pick-title">PickUp一覧</div>
+  <button
+    class="all-delete-button"
+    mat-flat-button
+    color="warn"
+    (click)="deleteData()"
+  >全て削除</button>
+</div>
 <div class="pick-wrapper">
   <div class="pick-container" *ngFor="let y of yotei;">
     <table>
