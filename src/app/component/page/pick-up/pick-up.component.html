@@ -6,6 +6,7 @@
     mat-flat-button
     color="warn"
     (click)="deleteAllData()"
+    [disabled]="yotei.length === 0"
   >全て削除</button>
 </div>
 <div class="pick-wrapper">
