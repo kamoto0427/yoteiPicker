@@ -14,6 +14,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 // Swiper
 import { SwiperModule } from 'swiper/angular';
@@ -54,6 +55,7 @@ import { YoteiListComponent } from 'src/app/component/page/yotei-list/yotei-list
     MatSidenavModule,
     MatListModule,
     MatFormFieldModule,
+    MatSnackBarModule,
     SwiperModule,
   ],
   providers: [],

@@ -5,7 +5,7 @@
     class="all-delete-button"
     mat-flat-button
     color="warn"
-    (click)="deleteData()"
+    (click)="deleteAllData()"
   >全て削除</button>
 </div>
 <div class="pick-wrapper">
@@ -14,6 +14,7 @@
       <tr>
         <th>{{ y.category }}</th>
         <td>{{ y.name }}</td>
+        <td><button mat-flat-button color="warn" (click)="deleteYoteiData()">削除</button></td>
       </tr>
     </table>
   </div>

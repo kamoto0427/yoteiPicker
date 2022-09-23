@@ -21,8 +21,15 @@ export class PickUpComponent implements OnInit {
   /**
    * データを削除
    */
-  public deleteData() {
+  public deleteAllData() {
     this.storageService.deleteAllData();
+  }
+
+  /**
+   * 特定のデータを削除
+   */
+  public deleteYoteiData() {
+    this.storageService.deleteYoteiData();
   }
 
 }

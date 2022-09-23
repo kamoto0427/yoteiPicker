@@ -38,4 +38,11 @@ export class StorageService {
   public deleteAllData() {
     return localStorage.clear();
   }
+
+  /**
+   * ローカルストレージの特定の予定データを削除する
+   */
+  public deleteYoteiData() {
+    return;
+  }
 }

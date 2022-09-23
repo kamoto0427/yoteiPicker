@@ -77,8 +77,12 @@ table th{
 
 table td{
   text-align: left;
-  width: 70%;
+  width: 50%;
   text-align: center;
   background-color: #FFFFFF;
   padding: 10px 0;
+}
+
+.pick-snackbar {
+  margin-top: 75px !important;
 }
