@@ -26,6 +26,9 @@ export class PickUpComponent implements OnInit {
   public deleteAllData() {
     this.storageService.deleteAllData();
 
+    // pickした予定データを全て空にする
+    this.yotei = [];
+
     // スナックバー表示
     this.snackBar.open("全て削除しました", "OK", {
       duration: 3000,
@@ -33,16 +36,24 @@ export class PickUpComponent implements OnInit {
       horizontalPosition: 'center', //'start' | 'center' | 'end' | 'left' | 'right'
       panelClass: 'pick-snackbar',
     });
-
-    // pickした予定データを全て空にする
-    this.yotei = [];
   }
 
   /**
    * 特定のデータを削除
    */
-  public deleteYoteiData() {
-    this.storageService.deleteYoteiData();
-  }
+  public deleteYoteiData(yotei: any) {
+    this.storageService.deleteYoteiData(yotei);
 
+    this.yotei = this.yotei.filter((y: any) => {
+      return y.id !== yotei.id;
+    });
+
+    // スナックバー表示
+    this.snackBar.open(`${yotei.name}を削除しました`, "OK", {
+      duration: 3000,
+      verticalPosition: 'top', // 'top' | 'bottom'
+      horizontalPosition: 'center', //'start' | 'center' | 'end' | 'left' | 'right'
+      panelClass: 'pick-snackbar',
+    });
+  }
 }

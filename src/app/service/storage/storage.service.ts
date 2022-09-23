@@ -42,7 +42,7 @@ export class StorageService {
   /**
    * ローカルストレージの特定の予定データを削除する
    */
-  public deleteYoteiData() {
-    return;
+  public deleteYoteiData(yotei: any) {
+    return localStorage.removeItem('yotei' + yotei.id);
   }
 }
