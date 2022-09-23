@@ -1,8 +1,9 @@
 .info-wrapper {
-  background-color:rgba(247,178,51,0.3);
+  background-color: #FFFFFF;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   width: 80%;
   margin: 60px auto;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 60%;
 }
 
