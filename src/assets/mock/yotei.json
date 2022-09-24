@@ -545,6 +545,60 @@
           "name": "東京ドイツ村でイルミネーションを満喫",
           "category": "外出・旅行",
           "prefecture": "千葉"
+      },
+      {
+          "id": 92,
+          "name": "三井アウトレットパークでショッピング",
+          "category": "外出・旅行",
+          "prefecture": "千葉"
+      },
+      {
+          "id": 93,
+          "name": "あべのハルカスでグルメを満喫",
+          "category": "外出・旅行",
+          "prefecture": "大阪"
+      },
+      {
+          "id": 94,
+          "name": "マザー牧場で動物にふれる",
+          "category": "外出・旅行",
+          "prefecture": "千葉"
+      },
+      {
+          "id": 95,
+          "name": "鴨川シーワールド",
+          "category": "外出・旅行",
+          "prefecture": "千葉"
+      },
+      {
+          "id": 96,
+          "name": "新宿御苑でのんびり散歩",
+          "category": "外出・旅行",
+          "prefecture": "東京"
+      },
+      {
+          "id": 97,
+          "name": "最強のパワースポット三峯神社",
+          "category": "外出・旅行",
+          "prefecture": "埼玉"
+      },
+      {
+          "id": 98,
+          "name": "小江戸を満喫！川越観光",
+          "category": "外出・旅行",
+          "prefecture": "埼玉"
+      },
+      {
+          "id": 99,
+          "name": "航空科学博物館",
+          "category": "外出・旅行",
+          "prefecture": "千葉"
+      },
+      {
+          "id": 100,
+          "name": "葛西臨海公園でピクニック",
+          "category": "外出・旅行",
+          "prefecture": "東京"
       }
   ]
 }
