@@ -7,34 +7,6 @@ mat-toolbar {
   color: #FFFFFF;
 }
 
-mat-sidenav-content {
-  height: 100vh;
- }
-
-mat-sidenav {
-  background-color:#07b3ce;
-  color: white;
-  width: 210px;
-}
-
-.white-icon {
-  color: white;
-}
-
-.menu-icon {
-  padding-right: 20px;
-}
-
 span {
   color: white;
-}
-
-a.list-group-item {
-  background-color: #07b3ce;
-  border-color: #07b3ce;
-  font-size: 18px;
-}
-
-a.list-group-item-action:hover {
-  background-color: #076b7a;
 }
