@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="category-container">
+      <div class="content" *ngFor="let c of category;">
+        <div class="category-icon">
+          <mat-icon class="icon">{{ c.category_icon }}</mat-icon>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="category-name">
+          {{ c.category_name }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
