@@ -1,25 +1,27 @@
 <ng-container>
   <div class="not-data" *ngIf="yotei.length === 0">0件です。</div>
-  <div class="dummy-area"></div>
-  <swiper
-    [slidesPerView]="1.25"
-    [spaceBetween]="15"
-    [pagination]="{ type: 'fraction' }"
-    [centeredSlides]="true"
-    [navigation]="true"
-    class="yotei-swiper"
-    id="yotei"
-  >
-    <ng-template swiperSlide *ngFor="let y of yotei;">
-      <div class="y-container">
-        <mat-chip-list class="chip">
-          <mat-chip>{{ y.category }}</mat-chip>
-        </mat-chip-list>
-        <div class="name">{{ y.name }}</div>
-        <mat-divider></mat-divider>
-        <div class="prefecture">{{ y.prefecture }}</div>
-        <app-pick-button [yotei]="y"></app-pick-button>
-      </div>
-    </ng-template>
-  </swiper>
+  <div *ngIf="yotei.length > 0">
+    <div class="dummy-area"></div>
+    <swiper
+      [slidesPerView]="1.25"
+      [spaceBetween]="15"
+      [pagination]="{ type: 'fraction' }"
+      [centeredSlides]="true"
+      [navigation]="true"
+      class="yotei-swiper"
+      id="yotei"
+    >
+      <ng-template swiperSlide *ngFor="let y of yotei;">
+        <div class="y-container">
+          <mat-chip-list class="chip">
+            <mat-chip>{{ y.category }}</mat-chip>
+          </mat-chip-list>
+          <div class="name">{{ y.name }}</div>
+          <mat-divider></mat-divider>
+          <div class="prefecture">{{ y.prefecture }}</div>
+          <app-pick-button [yotei]="y"></app-pick-button>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
 </ng-container>

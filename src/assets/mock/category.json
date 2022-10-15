@@ -2,7 +2,7 @@
   "category": [
       {
           "category_id": "1",
-          "category_name": "フード・お酒",
+          "category_name": "グルメ・お酒",
           "category_icon": "fastfood"
       },
       {
@@ -17,6 +17,36 @@
       },
       {
         "category_id": "4",
+        "category_name": "趣味",
+        "category_icon": "streetview"
+      },
+      {
+        "category_id": "5",
+        "category_name": "外出・旅行",
+        "category_icon": "airplanemode_active"
+      },
+      {
+        "category_id": "6",
+        "category_name": "ゲーム",
+        "category_icon": "videogame_asset"
+      },
+      {
+        "category_id": "7",
+        "category_name": "料理",
+        "category_icon": "restaurant"
+      },
+      {
+        "category_id": "8",
+        "category_name": "スポーツ",
+        "category_icon": "accessibility_new"
+      },
+      {
+        "category_id": "9",
+        "category_name": "アクティビティ",
+        "category_icon": "motorcycle"
+      },
+      {
+        "category_id": "10",
         "category_name": "その他",
         "category_icon": "dock"
       }
