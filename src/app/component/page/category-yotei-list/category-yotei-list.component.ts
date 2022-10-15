@@ -17,7 +17,7 @@ export class CategoryYoteiListComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.paramMap.subscribe((params: ParamMap) => {
       const categoryId = params.get('category_id');
-      this.yotei = this.getYoteiData(categoryId);
+      this.getYoteiData(categoryId);
     });
   }
 
@@ -27,10 +27,11 @@ export class CategoryYoteiListComponent implements OnInit {
    * @param categoryId カテゴリーID
    */
   public getYoteiData(categoryId: string | null) {
+    this.yotei = [];
     const yoteiData = YoteiJson.yotei;
-    return yoteiData.forEach(yotei => {
-      // String(yotei.category_id) === categoryId;
-    })
+    this.yotei = yoteiData.filter(yotei => {
+      return String(yotei.category_id) === categoryId;
+    });
   }
 
 }

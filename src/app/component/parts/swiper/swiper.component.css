@@ -40,6 +40,14 @@
   font-weight: bold;
 }
 
+.not-data {
+  width: 100%;
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 app-pick-button {
   position: absolute;
   bottom: 70px;
