@@ -31,6 +31,7 @@ import { PickUpComponent } from 'src/app/component/page/pick-up/pick-up.componen
 import { YoteiListComponent } from 'src/app/component/page/yotei-list/yotei-list.component';
 import { CategoryListComponent } from 'src/app/component/page/category-list/category-list.component';
 import { CategoryCardComponent } from './component/parts/category-card/category-card.component';
+import { CategoryYoteiListComponent } from 'src/app/component/page/category-yotei-list/category-yotei-list.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { CategoryCardComponent } from './component/parts/category-card/category-
     YoteiListComponent,
     CategoryListComponent,
     CategoryCardComponent,
+    CategoryYoteiListComponent,
   ],
   imports: [
     BrowserModule,

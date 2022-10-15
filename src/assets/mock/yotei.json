@@ -3,600 +3,700 @@
       {
           "id": 1,
           "name": "東京国立博物館",
+          "category_id": 2,
           "category": "芸術・教養",
           "prefecture": "東京"
       },
       {
           "id": 2,
           "name": "東京スカイツリー",
+          "category_id": 4,
           "category": "その他",
           "prefecture": "東京"
       },
       {
           "id": 3,
           "name": "東京トリックアート迷宮館",
+          "category_id": 2,
           "category": "その他",
           "prefecture": "東京"
       },
       {
           "id": 4,
           "name": "築地に行く",
+          "category_id": 2,
           "category": "グルメ・お酒",
           "prefecture": "東京"
       },
       {
           "id": 5,
           "name": "中華街に行く",
+          "category_id": 2,
           "category": "グルメ・お酒",
           "prefecture": "横浜"
       },
       {
           "id": 6,
           "name": "滝に打たれる",
+          "category_id": 2,
           "category": "その他",
           "prefecture": null
       },
       {
           "id": 7,
           "name": "サウナに行く",
+          "category_id": 2,
           "category": "趣味",
           "prefecture": null
       },
       {
           "id": 8,
           "name": "ジムで体を鍛える",
+          "category_id": 2,
           "category": "趣味",
           "prefecture": null
       },
       {
           "id": 9,
           "name": "ハンバーガー屋巡りをする",
+          "category_id": 2,
           "category": "グルメ・お酒",
           "prefecture": null
       },
       {
           "id": 10,
           "name": "美術館",
+          "category_id": 2,
           "category": "アート",
           "prefecture": null
       },
       {
           "id": 11,
           "name": "水族館",
+          "category_id": 2,
           "category": "デート",
           "prefecture": null
       },
       {
           "id": 12,
           "name": "映画館",
+          "category_id": 2,
           "category": "デート",
           "prefecture": null
       },
       {
           "id": 13,
           "name": "カフェ",
+          "category_id": 2,
           "category": "デート",
           "prefecture": null
       },
       {
           "id": 14,
           "name": "USJ",
+          "category_id": 2,
           "category": "デート",
           "prefecture": "大阪"
       },
       {
           "id": 15,
           "name": "ディズニーランド",
+          "category_id": 2,
           "category": "デート",
           "prefecture": "千葉"
       },
       {
           "id": 16,
           "name": "アニメを見る",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 17,
           "name": "Netflixを見る",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 18,
           "name": "スノーボードにいく",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 19,
           "name": "町中華を巡る",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 20,
           "name": "ライブやフェスに行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 21,
           "name": "人狼ゲーム",
+          "category_id": 2,
           "category": "ゲーム",
           "prefecture": null
       },
       {
           "id": 22,
           "name": "ウミガメのスープ",
+          "category_id": 2,
           "category": "ゲーム",
           "prefecture": null
       },
       {
           "id": 23,
           "name": "カラオケ",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 24,
           "name": "たこ焼きを作る",
+          "category_id": 2,
           "category": "料理",
           "prefecture": null
       },
       {
           "id": 25,
           "name": "ジブリ展に行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 26,
           "name": "ジブリを見る",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 27,
           "name": "海外ドラマを見る",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 28,
           "name": "ホラー映画を見る",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 29,
           "name": "韓国ドラマを見る",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 30,
           "name": "漫画",
+          "category_id": 2,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 31,
           "name": "野球観戦をする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 32,
           "name": "サッカー観戦をする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 33,
           "name": "バスケ観戦をする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 34,
           "name": "バレーボール観戦をする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 35,
           "name": "ラグビー観戦をする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 36,
           "name": "格闘技観戦をする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 37,
           "name": "ゴルフ",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 38,
           "name": "キャッチボールをする",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 39,
           "name": "ダイビング",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 40,
           "name": "サイクリング",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 41,
           "name": "ランニング・ジョギング",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 42,
           "name": "バドミントン",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 43,
           "name": "ヨガ",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 44,
           "name": "ダンス",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 45,
           "name": "卓球",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 46,
           "name": "ダーツ",
+          "category_id": 2,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 47,
           "name": "温泉に行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 48,
           "name": "きれいな海を見に行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 49,
           "name": "坦々麺を食べに行く",
+          "category_id": 2,
           "category": "食べ歩き",
           "prefecture": null
       },
       {
           "id": 50,
           "name": "城を見に行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 51,
           "name": "キャンプ・グランピング",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 52,
           "name": "バーベキュー",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 53,
           "name": "登山",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 54,
           "name": "屋久島に行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 55,
           "name": "古い街並みを見に行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 56,
           "name": "北海道で海鮮を食べる",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "北海道"
       },
       {
           "id": 57,
           "name": "猫カフェに行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 58,
           "name": "犬カフェに行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 59,
           "name": "フクロウカフェに行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 60,
           "name": "子豚カフェに行く",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 61,
           "name": "軽井沢",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "長野"
       },
       {
           "id": 62,
           "name": "倉敷で小京都を満喫",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "岡山"
       },
       {
           "id": 63,
           "name": "鎌倉・江ノ島",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "神奈川"
       },
       {
           "id": 64,
           "name": "浅草",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       },
       {
           "id": 65,
           "name": "伊勢志摩で地中海気分",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "三重"
       },
       {
           "id": 66,
           "name": "兼六園で庭園を見る",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "石川"
       },
       {
           "id": 67,
           "name": "沖縄でリゾートを満喫",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "沖縄"
       },
       {
           "id": 68,
           "name": "黒部ダムでトロッコ",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "富山"
       },
       {
           "id": 69,
           "name": "小豆島でエンジェルロード",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "香川"
       },
       {
           "id": 70,
           "name": "飛騨大鍾乳洞でひんやり",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "岐阜"
       },
       {
           "id": 71,
           "name": "仙台で牛タン",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "宮城"
       },
       {
           "id": 72,
           "name": "函館で夜景を見る",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "北海道"
       },
       {
           "id": 73,
           "name": "ハウステンボスでオランダ気分",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "長崎"
       },
       {
           "id": 74,
           "name": "別府温泉で温泉巡り",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "大分"
       },
       {
           "id": 75,
           "name": "博多でグルメ旅",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "福岡"
       },
       {
           "id": 76,
           "name": "大阪でくいだおれ",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "大阪"
       },
       {
           "id": 77,
           "name": "足利フラワーパーク",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "栃木"
       },
       {
           "id": 78,
           "name": "国営ひたち海浜公園",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "茨城"
       },
       {
           "id": 79,
           "name": "なばなの里",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "三重"
       },
       {
           "id": 80,
           "name": "長島スパーランド",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "三重"
       },
       {
           "id": 81,
           "name": "銀山温泉で大正時代を満喫",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "山形"
       },
       {
           "id": 82,
           "name": "上野動物園",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       },
       {
           "id": 83,
           "name": "百合ヶ浜の絶景な海",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "鹿児島"
       },
       {
           "id": 84,
           "name": "チームラボ",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       },
       {
           "id": 85,
           "name": "アクアパーク品川でイルカショー",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       },
       {
           "id": 86,
           "name": "カップヌードルミュージアム",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "横浜"
       },
       {
           "id": 87,
           "name": "夢の吊り橋でドキドキ",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "静岡"
       },
       {
           "id": 88,
           "name": "横浜・八景島シーパラダイス",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "横浜"
       },
       {
           "id": 89,
           "name": "等々力渓谷で自然を満喫",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       },
       {
           "id": 90,
           "name": "ほったらかし温泉",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "山梨"
       },
       {
           "id": 91,
           "name": "東京ドイツ村でイルミネーションを満喫",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "千葉"
       },
       {
           "id": 92,
           "name": "三井アウトレットパークでショッピング",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "千葉"
       },
       {
           "id": 93,
           "name": "あべのハルカスでグルメを満喫",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "大阪"
       },
       {
           "id": 94,
           "name": "マザー牧場で動物にふれる",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "千葉"
       },
       {
           "id": 95,
           "name": "鴨川シーワールド",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "千葉"
       },
       {
           "id": 96,
           "name": "新宿御苑でのんびり散歩",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       },
       {
           "id": 97,
           "name": "最強のパワースポット三峯神社",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "埼玉"
       },
       {
           "id": 98,
           "name": "小江戸を満喫！川越観光",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "埼玉"
       },
       {
           "id": 99,
           "name": "航空科学博物館",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "千葉"
       },
       {
           "id": 100,
           "name": "葛西臨海公園でピクニック",
+          "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
       }

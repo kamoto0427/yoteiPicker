@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import CategoryJson from 'src/assets/mock/category.json';
 
 @Component({
@@ -9,7 +10,9 @@ import CategoryJson from 'src/assets/mock/category.json';
 export class CategoryCardComponent implements OnInit {
   public category: any;
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
     this.category = this.getCategoryData();
@@ -18,8 +21,17 @@ export class CategoryCardComponent implements OnInit {
   /**
    * mockからデータを取得
    */
-     public getCategoryData() {
-      return CategoryJson.category;
-    }
+  public getCategoryData() {
+    return CategoryJson.category;
+  }
+
+  /**
+   * カテゴリーごとの予定リストに遷移する
+   *
+   * @param categoryId: number カテゴリーID
+   */
+  goYoteiListByCategory(categoryId: number) {
+    this.router.navigate(['categoryYoteiList', categoryId]);
+  }
 
 }
