@@ -7,16 +7,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  public primaryBackGroundColor: string | undefined;
-  public primaryTextColor: string | undefined;
-  public style: Object | undefined;
 
   constructor(
     private router: Router
   ) { }
 
   ngOnInit(): void {
-    this.primaryStyle();
   }
 
   goTop() {
@@ -29,12 +25,6 @@ export class HeaderComponent implements OnInit {
 
   goPickUp() {
     this.router.navigate(['pickUp']);
-  }
-
-  primaryStyle() {
-    this.primaryBackGroundColor = '#F7B233';
-    this.primaryTextColor = '#FFFFFF';
-    this.style = {'background-color': this.primaryBackGroundColor, 'color': this.primaryTextColor };
   }
 
 }
