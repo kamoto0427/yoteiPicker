@@ -27,4 +27,8 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['categoryList']);
   }
 
+  goRequest() {
+    this.router.navigate(['request']);
+  }
+
 }

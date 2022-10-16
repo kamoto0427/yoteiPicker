@@ -8,6 +8,7 @@ import { PickUpComponent } from 'src/app/component/page/pick-up/pick-up.componen
 import { YoteiListComponent } from 'src/app/component/page/yotei-list/yotei-list.component';
 import { CategoryListComponent } from 'src/app/component/page/category-list/category-list.component';
 import { CategoryYoteiListComponent } from 'src/app/component/page/category-yotei-list/category-yotei-list.component';
+import { RequestComponent } from 'src/app/component/page/request/request.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'yoteiList', component: YoteiListComponent },
   { path: 'categoryList', component: CategoryListComponent },
   { path: 'categoryYoteiList/:category_id', component: CategoryYoteiListComponent },
+  { path: 'request', component: RequestComponent },
 ];
 
 @NgModule({
