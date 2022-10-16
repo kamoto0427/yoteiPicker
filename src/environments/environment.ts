@@ -1,10 +1,11 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+import { env } from "src/environments/env";
 
 export const environment = {
   production: false,
-  // google_form_url: process.env["GOOGLE_FORM_URL"]
+  google_form_url: env.GOOGLE_FORM_URL
 };
 
 /*

@@ -19,8 +19,8 @@ export class RequestComponent implements OnInit {
    * @return グーグルフォームURL
    */
   public googleFormUrl() {
-    // const url = environment.google_form_url;
-    // return window.open(url);
+    const url = environment.google_form_url;
+    return window.open(url);
   }
 
 }
