@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Subject } from 'rxjs';
 import YoteiJson from 'src/assets/mock/yotei.json';
 
 @Component({
@@ -10,8 +11,9 @@ export class TopComponent implements OnInit {
   title = 'yoteiPicker';
 
   public yotei: any;
+  public isLoading: boolean = false;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     this.init();
@@ -20,11 +22,19 @@ export class TopComponent implements OnInit {
   /**
    * 初期化処理
    */
-  public init() {
-    // mockからデータを取得
-    const yoteiData = this.getYoteiData();
-    // ランダムな数字をもとに重複しないように配列を作成する
-    this.notDuplicationRandomArray(yoteiData);
+  public async init() {
+    try {
+      await this.loading();
+      // mockからデータを取得
+      const yoteiData = this.getYoteiData();
+      // ランダムな数字をもとに重複しないように配列を作成する
+      this.notDuplicationRandomArray(yoteiData);
+
+    } catch(error) {
+      console.log(error);
+    } finally {
+      await this.finishLoading();
+    }
   }
 
   /**
@@ -52,6 +62,25 @@ export class TopComponent implements OnInit {
     }
     this.yotei = yoteiData;
     return yoteiData;
+  }
+
+  /**
+   * ローディング処理
+   */
+  private async loading() {
+    return new Promise((resolve) => {
+      setTimeout(resolve, 1000);
+    });
+  }
+
+  /**
+   * ローディング処理終了
+   */
+  private async finishLoading() {
+    return new Promise((resolve) => {
+      this.isLoading = true;
+      resolve(this.isLoading);
+    });
   }
 
 }

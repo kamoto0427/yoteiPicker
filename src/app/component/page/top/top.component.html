@@ -1,3 +1,14 @@
-<app-header></app-header>
-<app-swiper [yotei]="yotei"></app-swiper>
-<app-footer></app-footer>
+<div *ngIf="!isLoading" class="wrapper">
+  <div class="container">
+    <div class="content">
+      <mat-icon>touch_app</mat-icon>
+      <div class="loading">Now Loading...</div>
+      <div class="title"><span class="underline">yoteiPicker</span></div>
+    </div>
+  </div>
+</div>
+<ng-container *ngIf="isLoading">
+  <app-header></app-header>
+  <app-swiper [yotei]="yotei"></app-swiper>
+  <app-footer></app-footer>
+</ng-container>
