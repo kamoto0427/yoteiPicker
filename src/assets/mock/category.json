@@ -47,6 +47,16 @@
       },
       {
         "category_id": "10",
+        "category_name": "パワースポット",
+        "category_icon": "settings_input_antenna"
+      },
+      {
+        "category_id": "11",
+        "category_name": "歴史",
+        "category_icon": "account_balance"
+      },
+      {
+        "category_id": "99",
         "category_name": "その他",
         "category_icon": "dock"
       }

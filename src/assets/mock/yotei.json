@@ -24,14 +24,14 @@
       {
           "id": 4,
           "name": "築地に行く",
-          "category_id": 2,
+          "category_id": 1,
           "category": "グルメ・お酒",
           "prefecture": "東京"
       },
       {
           "id": 5,
           "name": "中華街に行く",
-          "category_id": 2,
+          "category_id": 1,
           "category": "グルメ・お酒",
           "prefecture": "横浜"
       },
@@ -45,21 +45,21 @@
       {
           "id": 7,
           "name": "サウナに行く",
-          "category_id": 2,
+          "category_id": 4,
           "category": "趣味",
           "prefecture": null
       },
       {
           "id": 8,
           "name": "ジムで体を鍛える",
-          "category_id": 2,
+          "category_id": 4,
           "category": "趣味",
           "prefecture": null
       },
       {
           "id": 9,
           "name": "ハンバーガー屋巡りをする",
-          "category_id": 2,
+          "category_id": 1,
           "category": "グルメ・お酒",
           "prefecture": null
       },
@@ -67,7 +67,7 @@
           "id": 10,
           "name": "美術館",
           "category_id": 2,
-          "category": "アート",
+          "category": "芸術・教養",
           "prefecture": null
       },
       {
@@ -108,49 +108,49 @@
       {
           "id": 16,
           "name": "アニメを見る",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 17,
           "name": "Netflixを見る",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 18,
           "name": "スノーボードにいく",
-          "category_id": 2,
+          "category_id": 5,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 19,
           "name": "町中華を巡る",
-          "category_id": 2,
-          "category": "外出・旅行",
+          "category_id": 1,
+          "category": "グルメ・お酒",
           "prefecture": null
       },
       {
           "id": 20,
           "name": "ライブやフェスに行く",
-          "category_id": 2,
+          "category_id": 5,
           "category": "外出・旅行",
           "prefecture": null
       },
       {
           "id": 21,
           "name": "人狼ゲーム",
-          "category_id": 2,
+          "category_id": 6,
           "category": "ゲーム",
           "prefecture": null
       },
       {
           "id": 22,
           "name": "ウミガメのスープ",
-          "category_id": 2,
+          "category_id": 6,
           "category": "ゲーム",
           "prefecture": null
       },
@@ -164,7 +164,7 @@
       {
           "id": 24,
           "name": "たこ焼きを作る",
-          "category_id": 2,
+          "category_id": 7,
           "category": "料理",
           "prefecture": null
       },
@@ -178,147 +178,147 @@
       {
           "id": 26,
           "name": "ジブリを見る",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 27,
           "name": "海外ドラマを見る",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 28,
           "name": "ホラー映画を見る",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 29,
           "name": "韓国ドラマを見る",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 30,
           "name": "漫画",
-          "category_id": 2,
+          "category_id": 3,
           "category": "お家",
           "prefecture": null
       },
       {
           "id": 31,
           "name": "野球観戦をする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 32,
           "name": "サッカー観戦をする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 33,
           "name": "バスケ観戦をする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 34,
           "name": "バレーボール観戦をする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 35,
           "name": "ラグビー観戦をする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 36,
           "name": "格闘技観戦をする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 37,
           "name": "ゴルフ",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 38,
           "name": "キャッチボールをする",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 39,
           "name": "ダイビング",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 40,
           "name": "サイクリング",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 41,
           "name": "ランニング・ジョギング",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 42,
           "name": "バドミントン",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 43,
           "name": "ヨガ",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 44,
           "name": "ダンス",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 45,
           "name": "卓球",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
       {
           "id": 46,
           "name": "ダーツ",
-          "category_id": 2,
+          "category_id": 8,
           "category": "スポーツ",
           "prefecture": null
       },
@@ -699,6 +699,216 @@
           "category_id": 2,
           "category": "外出・旅行",
           "prefecture": "東京"
+      },
+      {
+          "id": 101,
+          "name": "伊勢神宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "三重"
+      },
+      {
+          "id": 102,
+          "name": "来宮神社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "静岡"
+      },
+      {
+          "id": 103,
+          "name": "伊勢神宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "三重"
+      },
+      {
+          "id": 104,
+          "name": "皇居",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "東京"
+      },
+      {
+          "id": 105,
+          "name": "諏訪大社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "長野"
+      },
+      {
+          "id": 106,
+          "name": "住吉大社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "大阪"
+      },
+      {
+          "id": 107,
+          "name": "鶴岡八幡宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "神奈川"
+      },
+      {
+          "id": 108,
+          "name": "日光東照宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "栃木"
+      },
+      {
+          "id": 109,
+          "name": "幣立神宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "熊本"
+      },
+      {
+          "id": 110,
+          "name": "布引の滝",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "兵庫"
+      },
+      {
+          "id": 111,
+          "name": "根津神社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "東京"
+      },
+      {
+          "id": 112,
+          "name": "榛名神社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "群馬"
+      },
+      {
+          "id": 113,
+          "name": "箱根神社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "神奈川"
+      },
+      {
+          "id": 114,
+          "name": "明治神宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "東京"
+      },
+      {
+          "id": 115,
+          "name": "御岩神社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "茨城"
+      },
+      {
+          "id": 116,
+          "name": "善光寺",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "長野"
+      },
+      {
+          "id": 117,
+          "name": "分杭峠",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "長野"
+      },
+      {
+          "id": 118,
+          "name": "金剛崎",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "石川"
+      },
+      {
+          "id": 119,
+          "name": "出羽三山",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "山形"
+      },
+      {
+          "id": 120,
+          "name": "霊場恐山",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "青森"
+      },
+      {
+          "id": 121,
+          "name": "高野山",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "和歌山"
+      },
+      {
+          "id": 122,
+          "name": "出雲大社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "島根"
+      },
+      {
+          "id": 123,
+          "name": "橿原神宮",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "奈良"
+      },
+      {
+          "id": 124,
+          "name": "聖域の岬",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "石川"
+      },
+      {
+          "id": 125,
+          "name": "高千穂峡",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "宮崎県"
+      },
+      {
+          "id": 126,
+          "name": "阿蘇山",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "熊本"
+      },
+      {
+          "id": 127,
+          "name": "備瀬のワルミ",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "沖縄"
+      },
+      {
+          "id": 128,
+          "name": "日光二荒山神社",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "栃木"
+      },
+      {
+          "id": 129,
+          "name": "吹割の滝",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "群馬"
+      },
+      {
+          "id": 130,
+          "name": "天空回廊　鍾乳洞　不二洞",
+          "category_id": 10,
+          "category": "パワースポット",
+          "prefecture": "群馬"
       }
   ]
 }
