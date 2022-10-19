@@ -1,4 +1,15 @@
-<app-header></app-header>
+<div *ngIf="!isLoading" class="wrapper">
+  <div class="container">
+    <div class="content">
+      <mat-icon>touch_app</mat-icon>
+      <div class="loading">Now Loading...</div>
+      <div class="loading-title"><span class="underline">yoteiPicker</span></div>
+    </div>
+  </div>
+</div>
+
+<ng-container *ngIf="isLoading">
+  <app-header></app-header>
   <div class="yotei-list-wrapper">
     <div class="yotei-list-container">
       <div class="title">yoteiPicker一覧</div>
@@ -14,4 +25,5 @@
     </div>
     <div class="dummy-area"></div>
   </div>
-<app-footer></app-footer>
+  <app-footer></app-footer>
+</ng-container>

@@ -10,10 +10,28 @@ export class YoteiListComponent implements OnInit {
 
   public yotei: any;
 
+  public isLoading: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
-    this.yotei = this.getYoteiData();
+    this.init();
+  }
+
+  /**
+   * 初期化処理
+   */
+  private async init() {
+    try {
+      await this.loading();
+
+      this.yotei = this.getYoteiData();
+
+    } catch(error) {
+      console.log(error);
+    } finally {
+      await this.finishLoading();
+    }
   }
 
   /**
@@ -21,6 +39,25 @@ export class YoteiListComponent implements OnInit {
    */
   public getYoteiData() {
     return YoteiJson.yotei;
+  }
+
+  /**
+   * ローディング処理
+   */
+  private async loading() {
+    return new Promise((resolve) => {
+      setTimeout(resolve, 1000);
+    });
+  }
+
+  /**
+   * ローディング処理終了
+   */
+  private async finishLoading() {
+    return new Promise((resolve) => {
+      this.isLoading = true;
+      resolve(this.isLoading);
+    });
   }
 
 }
