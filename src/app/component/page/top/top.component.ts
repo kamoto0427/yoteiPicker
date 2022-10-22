@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
 import YoteiJson from 'src/assets/mock/yotei.json';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Component({
   selector: 'app-top',
@@ -10,10 +11,12 @@ import YoteiJson from 'src/assets/mock/yotei.json';
 export class TopComponent implements OnInit {
   title = 'yoteiPicker';
 
-  public yotei: any;
+  public yotei: Yotei[];
   public isLoading: boolean = false;
 
-  constructor() {}
+  constructor() {
+    this.yotei = [];
+  }
 
   ngOnInit(): void {
     this.init();
@@ -55,7 +58,7 @@ export class TopComponent implements OnInit {
   /**
    * ランダムに配列を並び替え、重複しないような配列を返す
    */
-  public notDuplicationRandomArray([...yoteiData]: any) {
+  public notDuplicationRandomArray([...yoteiData]: Yotei[]) {
     for (let i = yoteiData.length - 1; i >= 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [yoteiData[i], yoteiData[j]] = [yoteiData[j], yoteiData[i]];

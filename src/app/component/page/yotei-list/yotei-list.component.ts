@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import YoteiJson from 'src/assets/mock/yotei.json';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Component({
   selector: 'app-yotei-list',
@@ -8,11 +9,13 @@ import YoteiJson from 'src/assets/mock/yotei.json';
 })
 export class YoteiListComponent implements OnInit {
 
-  public yotei: any;
+  public yotei: Yotei[];
 
   public isLoading: boolean = false;
 
-  constructor() { }
+  constructor() {
+    this.yotei = [];
+  }
 
   ngOnInit(): void {
     this.init();

@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Injectable({
   providedIn: 'root'
@@ -42,7 +43,7 @@ export class StorageService {
   /**
    * ローカルストレージの特定の予定データを削除する
    */
-  public deleteYoteiData(yotei: any) {
+  public deleteYoteiData(yotei: Yotei) {
     return localStorage.removeItem('yotei' + yotei.id);
   }
 }

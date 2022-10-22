@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { StorageService } from 'src/app/service/storage/storage.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Component({
   selector: 'app-pick-up',
@@ -9,12 +10,14 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class PickUpComponent implements OnInit {
 
-  public yotei: any;
+  public yotei: Yotei[];
 
   constructor(
     private storageService: StorageService,
     private snackBar: MatSnackBar,
-  ) { }
+  ) {
+    this.yotei = []
+   }
 
   ngOnInit(): void {
     this.yotei = this.storageService.getLocalData();
@@ -41,10 +44,10 @@ export class PickUpComponent implements OnInit {
   /**
    * 特定のデータを削除
    */
-  public deleteYoteiData(yotei: any) {
+  public deleteYoteiData(yotei: Yotei) {
     this.storageService.deleteYoteiData(yotei);
 
-    this.yotei = this.yotei.filter((y: any) => {
+    this.yotei = this.yotei.filter((y: Yotei) => {
       return y.id !== yotei.id;
     });
 

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import YoteiJson from 'src/assets/mock/yotei.json';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Component({
   selector: 'app-category-yotei-list',
@@ -8,11 +9,13 @@ import YoteiJson from 'src/assets/mock/yotei.json';
   styleUrls: ['./category-yotei-list.component.css']
 })
 export class CategoryYoteiListComponent implements OnInit {
-  public yotei: any;
+  public yotei: Yotei[];
 
   constructor(
     private activatedRoute: ActivatedRoute
-  ) { }
+  ) {
+    this.yotei = [];
+  }
 
   ngOnInit(): void {
     this.activatedRoute.paramMap.subscribe((params: ParamMap) => {

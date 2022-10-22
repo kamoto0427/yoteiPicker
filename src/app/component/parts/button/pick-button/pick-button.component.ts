@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { StorageService } from 'src/app/service/storage/storage.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Component({
   selector: 'app-pick-button',
@@ -8,12 +9,12 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   styleUrls: ['./pick-button.component.css']
 })
 export class PickButtonComponent implements OnInit {
-  @Input() yotei: any;
+  @Input() yotei: Yotei;
 
   constructor(
     private storageService: StorageService,
     private snackBar: MatSnackBar
-  ) { }
+  ) {}
 
   ngOnInit(): void {
   }
@@ -21,7 +22,7 @@ export class PickButtonComponent implements OnInit {
   /**
    * ローカルストレージにデータを保存する
    */
-  public storeYoteiData(yotei: any) {
+  public storeYoteiData(yotei: Yotei) {
     const id = yotei.id;
     this.storageService.storeLocal(id, yotei);
 

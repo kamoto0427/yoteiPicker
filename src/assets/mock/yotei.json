@@ -40,56 +40,56 @@
         "name": "滝に打たれる",
         "category_id": 2,
         "category": "その他",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 7,
         "name": "サウナに行く",
         "category_id": 4,
         "category": "趣味",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 8,
         "name": "ジムで体を鍛える",
         "category_id": 4,
         "category": "趣味",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 9,
         "name": "ハンバーガー屋巡りをする",
         "category_id": 1,
         "category": "グルメ・お酒",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 10,
         "name": "美術館",
         "category_id": 2,
         "category": "芸術・教養",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 11,
         "name": "水族館",
         "category_id": 2,
         "category": "デート",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 12,
         "name": "映画館",
         "category_id": 2,
         "category": "デート",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 13,
         "name": "カフェ",
         "category_id": 2,
         "category": "デート",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 14,
@@ -110,280 +110,280 @@
         "name": "アニメを見る",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 17,
         "name": "Netflixを見る",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 18,
         "name": "スノーボードにいく",
         "category_id": 5,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 19,
         "name": "町中華を巡る",
         "category_id": 1,
         "category": "グルメ・お酒",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 20,
         "name": "ライブやフェスに行く",
         "category_id": 5,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 21,
         "name": "人狼ゲーム",
         "category_id": 6,
         "category": "ゲーム",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 22,
         "name": "ウミガメのスープ",
         "category_id": 6,
         "category": "ゲーム",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 23,
         "name": "カラオケ",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 24,
         "name": "たこ焼きを作る",
         "category_id": 7,
         "category": "料理",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 25,
         "name": "ジブリ展に行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 26,
         "name": "ジブリを見る",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 27,
         "name": "海外ドラマを見る",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 28,
         "name": "ホラー映画を見る",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 29,
         "name": "韓国ドラマを見る",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 30,
         "name": "漫画",
         "category_id": 3,
         "category": "お家",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 31,
         "name": "野球観戦をする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 32,
         "name": "サッカー観戦をする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 33,
         "name": "バスケ観戦をする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 34,
         "name": "バレーボール観戦をする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 35,
         "name": "ラグビー観戦をする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 36,
         "name": "格闘技観戦をする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 37,
         "name": "ゴルフ",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 38,
         "name": "キャッチボールをする",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 39,
         "name": "ダイビング",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 40,
         "name": "サイクリング",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 41,
         "name": "ランニング・ジョギング",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 42,
         "name": "バドミントン",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 43,
         "name": "ヨガ",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 44,
         "name": "ダンス",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 45,
         "name": "卓球",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 46,
         "name": "ダーツ",
         "category_id": 8,
         "category": "スポーツ",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 47,
         "name": "温泉に行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 48,
         "name": "きれいな海を見に行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 49,
         "name": "坦々麺を食べに行く",
         "category_id": 2,
         "category": "食べ歩き",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 50,
         "name": "城を見に行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 51,
         "name": "キャンプ・グランピング",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 52,
         "name": "バーベキュー",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 53,
         "name": "登山",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 54,
         "name": "屋久島に行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 55,
         "name": "古い街並みを見に行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 56,
@@ -397,28 +397,28 @@
         "name": "猫カフェに行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 58,
         "name": "犬カフェに行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 59,
         "name": "フクロウカフェに行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 60,
         "name": "子豚カフェに行く",
         "category_id": 2,
         "category": "外出・旅行",
-        "prefecture": null
+        "prefecture": ""
     },
     {
         "id": 61,
