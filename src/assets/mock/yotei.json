@@ -972,6 +972,153 @@
         "category_id": 11,
         "category": "歴史",
         "prefecture": "京都"
+    },
+    {
+        "id": 140,
+        "name": "陶芸体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 141,
+        "name": "苔玉＆苔テラリウム作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 142,
+        "name": "金継ぎ体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 143,
+        "name": "江戸切子体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 144,
+        "name": "江戸切子体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 145,
+        "name": "和紙ランプシェード作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 146,
+        "name": "香水作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 147,
+        "name": "線香作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 148,
+        "name": "箸作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 149,
+        "name": "組紐作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 150,
+        "name": "酒器・グラス作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 151,
+        "name": "吹きガラス体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 152,
+        "name": "とんぼ玉作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 153,
+        "name": "アクセサリー作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 154,
+        "name": "キャンドル作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 155,
+        "name": "お皿づくり体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": ""
+    },
+    {
+        "id": 156,
+        "name": "スプーン絵つけ体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": "静岡・熱海"
+    },
+    {
+        "id": 157,
+        "name": "藍染め体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": "静岡・熱海"
+    },
+    {
+        "id": 158,
+        "name": "手形プレート体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": "埼玉・長瀞"
+    },
+    {
+        "id": 159,
+        "name": "手のひらサイズの幸福フクロウ作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": "群馬・藤岡"
+    },
+    {
+        "id": 160,
+        "name": "陶器のランプ作り体験",
+        "category_id": 12,
+        "category": "体験",
+        "prefecture": "埼玉・秩父"
     }
   ]
 }

@@ -56,6 +56,11 @@
         "category_icon": "account_balance"
       },
       {
+        "category_id": "12",
+        "category_name": "体験",
+        "category_icon": "headset"
+      },
+      {
         "category_id": "99",
         "category_name": "その他",
         "category_icon": "dock"
