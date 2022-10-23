@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import CategoryJson from 'src/assets/mock/category.json';
+import { Category } from 'src/app/interface/category';
 
 @Component({
   selector: 'app-category-card',
@@ -8,11 +9,13 @@ import CategoryJson from 'src/assets/mock/category.json';
   styleUrls: ['./category-card.component.css']
 })
 export class CategoryCardComponent implements OnInit {
-  public category: any;
+  public category: Category[];
 
   constructor(
     private router: Router
-  ) { }
+  ) {
+    this.category = [];
+  }
 
   ngOnInit(): void {
     this.category = this.getCategoryData();
