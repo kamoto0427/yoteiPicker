@@ -1,0 +1,15 @@
+mat-icon {
+  color: #FFFFFF;
+}
+
+.pick-chip {
+  text-align: end;
+}
+
+.mat-chip.mat-standard-chip {
+  background-color: #3f51b5;;
+}
+
+.text {
+  color: #FFFFFF;
+}

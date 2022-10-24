@@ -34,6 +34,7 @@ SwiperCore.use([Virtual]);
 })
 export class SwiperComponent {
   @Input() yotei: any;
+  @Input() pickIds: Array<number>;
 
   constructor() { }
 

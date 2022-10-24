@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
 import YoteiJson from 'src/assets/mock/yotei.json';
 import { Yotei } from 'src/app/interface/yotei';
+import { StorageService } from 'src/app/service/storage/storage.service';
 
 @Component({
   selector: 'app-top',
@@ -13,9 +14,13 @@ export class TopComponent implements OnInit {
 
   public yotei: Yotei[];
   public isLoading: boolean = false;
+  public pickIds: Array<number>;
 
-  constructor() {
-    this.yotei = [];
+  constructor(
+    private storageService: StorageService,
+  ) {
+    this.yotei   = [];
+    this.pickIds = [];
   }
 
   ngOnInit(): void {
@@ -32,6 +37,11 @@ export class TopComponent implements OnInit {
       const yoteiData = this.getYoteiData();
       // ランダムな数字をもとに重複しないように配列を作成する
       this.notDuplicationRandomArray(yoteiData);
+
+      const pickYoteiArray = this.storageService.getLocalData();
+      pickYoteiArray.forEach((pickYotei: Yotei) => {
+        this.pickIds.push(pickYotei.id);
+      });
 
     } catch(error) {
       console.log(error);

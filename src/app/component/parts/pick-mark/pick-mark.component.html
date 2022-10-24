@@ -1,0 +1,8 @@
+<div *ngFor="let pickId of pickIds;">
+  <div class="pick-chip" *ngIf="pickId === yoteiId">
+    <mat-chip>
+      <mat-icon>bookmark</mat-icon>
+      <span class="text">Pick済み</span>
+    </mat-chip>
+  </div>
+</div>

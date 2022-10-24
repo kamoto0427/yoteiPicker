@@ -13,9 +13,12 @@
     >
       <ng-template swiperSlide *ngFor="let y of yotei;">
         <div class="y-container">
-          <mat-chip-list class="chip">
-            <mat-chip>{{ y.category }}</mat-chip>
-          </mat-chip-list>
+          <div class="chip-container">
+            <mat-chip-list class="chip">
+              <mat-chip>{{ y.category }}</mat-chip>
+            </mat-chip-list>
+            <app-pick-mark [yoteiId]="y.id" [pickIds]="pickIds"></app-pick-mark>
+          </div>
           <div class="name">{{ y.name }}</div>
           <mat-divider></mat-divider>
           <div class="prefecture">{{ y.prefecture }}</div>

@@ -33,6 +33,7 @@ import { CategoryListComponent } from 'src/app/component/page/category-list/cate
 import { CategoryCardComponent } from './component/parts/category-card/category-card.component';
 import { CategoryYoteiListComponent } from 'src/app/component/page/category-yotei-list/category-yotei-list.component';
 import { RequestComponent } from 'src/app/component/page/request/request.component';
+import { PickMarkComponent } from './component/parts/pick-mark/pick-mark.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { RequestComponent } from 'src/app/component/page/request/request.compone
     CategoryCardComponent,
     CategoryYoteiListComponent,
     RequestComponent,
+    PickMarkComponent,
   ],
   imports: [
     BrowserModule,
