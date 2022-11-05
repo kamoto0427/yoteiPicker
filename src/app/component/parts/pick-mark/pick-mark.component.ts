@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-pick-mark',
@@ -8,10 +8,19 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PickMarkComponent implements OnInit {
   @Input() yoteiId: number;
   @Input() pickIds: Array<number>;
+  @Input() pickButtonId: number;
+
+  public buttonId: number;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    // console.log(changes);
+    this.pickButtonId;
+    // console.log(this.pickButtonId);
   }
 
 }

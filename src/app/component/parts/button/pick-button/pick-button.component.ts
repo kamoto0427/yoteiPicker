@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { StorageService } from 'src/app/service/storage/storage.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Yotei } from 'src/app/interface/yotei';
@@ -10,6 +10,7 @@ import { Yotei } from 'src/app/interface/yotei';
 })
 export class PickButtonComponent implements OnInit {
   @Input() yotei: Yotei;
+  @Output() pickButtonId = new EventEmitter<number>();
 
   constructor(
     private storageService: StorageService,
@@ -22,7 +23,7 @@ export class PickButtonComponent implements OnInit {
   /**
    * ローカルストレージにデータを保存する
    */
-  public storeYoteiData(yotei: Yotei) {
+  public storeYoteiData(yotei: Yotei, pickButtonId: number) {
     const id = yotei.id;
     this.storageService.storeLocal(id, yotei);
 
@@ -33,6 +34,8 @@ export class PickButtonComponent implements OnInit {
       horizontalPosition: 'center', //'start' | 'center' | 'end' | 'left' | 'right'
       panelClass: 'pick-snackbar',
     });
+
+    this.pickButtonId.emit(pickButtonId);
   }
 
 }

@@ -36,8 +36,14 @@ export class SwiperComponent {
   @Input() yotei: any;
   @Input() pickIds: Array<number>;
 
+  public pickButtonId: number;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickPickButton(buttonId: number) {
+    return this.pickButtonId = buttonId;
   }
 }
