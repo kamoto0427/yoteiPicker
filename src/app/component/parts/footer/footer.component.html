@@ -1,18 +1,18 @@
 <ng-container>
   <div class="footer">
-    <div class="icon-field">
+    <div class="icon-field" [ngClass]="{ 'icon-field-underline': topFlg }">
       <mat-icon class="icon" (click)="goTop()">home</mat-icon>
       <div class="icon-text">ホーム</div>
     </div>
-    <div class="icon-field">
+    <div class="icon-field" [ngClass]="{ 'icon-field-underline': yoteiList }">
       <mat-icon class="icon" (click)="goYoteiList()">description</mat-icon>
       <div class="icon-text">一覧</div>
     </div>
-    <div class="icon-field">
+    <div class="icon-field" [ngClass]="{ 'icon-field-underline': categoryListFlg }">
       <mat-icon class="icon" (click)="goCategoryList()">apps</mat-icon>
       <div class="icon-text">カテゴリー別</div>
     </div>
-    <div class="icon-field">
+    <div class="icon-field" [ngClass]="{ 'icon-field-underline': requestFlg }">
       <mat-icon class="icon" (click)="goRequest()">touch_app</mat-icon>
       <div class="icon-text">リクエスト</div>
     </div>

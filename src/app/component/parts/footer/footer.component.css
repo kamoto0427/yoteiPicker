@@ -14,13 +14,17 @@
 }
 
 .mat-icon {
-  height: 32px;
+  height: 28px;
   width: 50px;
-  font-size: 36px;
+  font-size: 30px;
   padding-top: 3px;
   cursor: pointer;
 }
 
 .icon-text {
   font-size: 12px;
+}
+
+.icon-field-underline {
+  border-bottom: 7px solid #fff;
 }
