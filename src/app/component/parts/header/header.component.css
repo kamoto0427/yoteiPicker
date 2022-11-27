@@ -6,6 +6,14 @@
   flex: 1 1 auto;
 }
 
+.bookmark-icon {
+  margin-right: 15px;
+}
+
+.icon-bottom-text {
+  margin-top: -20px;
+}
+
 mat-toolbar {
   background-color: #F7B233;
   color: #FFFFFF;
