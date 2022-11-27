@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+  padding: 30px 0 100px 0;
+  display: grid;
+  justify-content: center;
+}
+
+.twitter-button {
+  background-color: #55acee;
+}
+
+.facebook-button {
+  background-color: #315096;
+}
+
+.line-button {
+  background-color: #1dcd00;
+}
+
+button {
+  margin: 10px;
+  width: 225px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}

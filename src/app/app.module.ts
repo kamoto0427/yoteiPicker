@@ -36,6 +36,7 @@ import { CategoryYoteiListComponent } from 'src/app/component/page/category-yote
 import { RequestComponent } from 'src/app/component/page/request/request.component';
 import { PickMarkComponent } from './component/parts/pick-mark/pick-mark.component';
 import { AccordionComponent } from './component/parts/accordion/accordion.component';
+import { ShareButtonComponent } from './component/parts/share-button/share-button.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { AccordionComponent } from './component/parts/accordion/accordion.compon
     RequestComponent,
     PickMarkComponent,
     AccordionComponent,
+    ShareButtonComponent,
   ],
   imports: [
     BrowserModule,
