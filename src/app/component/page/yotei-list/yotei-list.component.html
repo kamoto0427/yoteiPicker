@@ -10,6 +10,7 @@
 
 <ng-container *ngIf="isLoading">
   <app-header></app-header>
+  <app-add-home-screen></app-add-home-screen>
   <div class="yotei-list-wrapper">
     <div class="yotei-list-container">
       <div class="title">yoteiPicker一覧</div>
@@ -23,7 +24,7 @@
         <mat-divider></mat-divider>
       </div>
     </div>
-    <div class="dummy-area"></div>
   </div>
+  <app-share-button></app-share-button>
   <app-footer></app-footer>
 </ng-container>

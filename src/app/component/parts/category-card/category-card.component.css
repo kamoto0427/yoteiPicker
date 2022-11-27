@@ -1,6 +1,5 @@
 .wrapper {
   width: 100%;
-  height: calc(100vh - 60px);
 }
 
 .container {
@@ -27,7 +26,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px;
   gap: 20px;
-  padding-bottom: 60px;
 }
 
 mat-icon {
