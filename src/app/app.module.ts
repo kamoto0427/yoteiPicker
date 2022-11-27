@@ -15,6 +15,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 // Swiper
 import { SwiperModule } from 'swiper/angular';
@@ -34,6 +35,7 @@ import { CategoryCardComponent } from './component/parts/category-card/category-
 import { CategoryYoteiListComponent } from 'src/app/component/page/category-yotei-list/category-yotei-list.component';
 import { RequestComponent } from 'src/app/component/page/request/request.component';
 import { PickMarkComponent } from './component/parts/pick-mark/pick-mark.component';
+import { AccordionComponent } from './component/parts/accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +54,7 @@ import { PickMarkComponent } from './component/parts/pick-mark/pick-mark.compone
     CategoryYoteiListComponent,
     RequestComponent,
     PickMarkComponent,
+    AccordionComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,6 +69,7 @@ import { PickMarkComponent } from './component/parts/pick-mark/pick-mark.compone
     MatListModule,
     MatFormFieldModule,
     MatSnackBarModule,
+    CdkAccordionModule,
     SwiperModule,
   ],
   providers: [],
