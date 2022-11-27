@@ -37,6 +37,8 @@ import { RequestComponent } from 'src/app/component/page/request/request.compone
 import { PickMarkComponent } from './component/parts/pick-mark/pick-mark.component';
 import { AccordionComponent } from './component/parts/accordion/accordion.component';
 import { ShareButtonComponent } from './component/parts/share-button/share-button.component';
+import { AddHomeScreenComponent } from './component/parts/add-home-screen/add-home-screen.component';
+import { AddHomeComponent } from './component/page/add-home/add-home.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +59,8 @@ import { ShareButtonComponent } from './component/parts/share-button/share-butto
     PickMarkComponent,
     AccordionComponent,
     ShareButtonComponent,
+    AddHomeScreenComponent,
+    AddHomeComponent,
   ],
   imports: [
     BrowserModule,

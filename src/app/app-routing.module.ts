@@ -9,6 +9,7 @@ import { YoteiListComponent } from 'src/app/component/page/yotei-list/yotei-list
 import { CategoryListComponent } from 'src/app/component/page/category-list/category-list.component';
 import { CategoryYoteiListComponent } from 'src/app/component/page/category-yotei-list/category-yotei-list.component';
 import { RequestComponent } from 'src/app/component/page/request/request.component';
+import { AddHomeComponent } from 'src/app/component/page/add-home/add-home.component';
 
 const routes: Routes = [
   { path: '', component: TopComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'categoryList', component: CategoryListComponent },
   { path: 'categoryYoteiList/:category_id', component: CategoryYoteiListComponent },
   { path: 'request', component: RequestComponent },
+  { path: 'addHome', component: AddHomeComponent },
 ];
 
 @NgModule({

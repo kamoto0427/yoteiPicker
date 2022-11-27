@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: #FFFFFF;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  width: 80%;
+  margin: 60px auto;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 15px;
+}
+
+.pc, .iphone, .android {
+  color: #4A4A4A;
+  font-weight: bold;
+}
