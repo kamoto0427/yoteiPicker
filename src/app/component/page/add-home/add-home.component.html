@@ -1,15 +1,21 @@
 <app-header></app-header>
 <div class="wrapper">
   <div class="container">
-    <h2 class="pc">PCの場合</h2>
-    <p>1. ランダムで表示される予定を確認する。</p>
-    <p>2. 気になった予定は「Pickする」ボタンをクリックする。</p>
+    <h2 class="pc">PCでブックマークに保存する方法</h2>
+    <a (click)="openPcWindow()">PCでブックマークに<br>保存する方法</a>
     <h2 class="iphone">iphoneの場合</h2>
-    <p>1. ランダムで表示される予定を確認する。</p>
-    <p>2. 気になった予定は「Pickする」ボタンをクリックする。</p>
+    <a href="" (click)="openIphoneBookmarkWindow()">iphoneでブックマークに<br>保存する方法</a>
+    <br>
+    <div style="height: 20px;"></div>
+    <a href="" (click)="openIphoneAddHomeWindow()">iphoneでアプリをホーム画面に<br>追加する方法</a>
     <h2 class="android">Androidの場合</h2>
-    <p>1. ランダムで表示される予定を確認する。</p>
-    <p>2. 気になった予定は「Pickする」ボタンをクリックする。</p>
+    <a href="" (click)="openAndroidBookmarkWindow()">Androidでブックマークに<br>保存する方法</a>
+    <br>
+    <div style="height: 20px;"></div>
+    <p> Androidでホーム画面に追加する方法</p>
+    <p>1.Google Chromeを開きます。</p>
+    <p>2.画面右上にある≡をクリック</p>
+    <p>3.ホーム画面に追加を選択する</p>
   </div>
 </div>
 <app-share-button></app-share-button>

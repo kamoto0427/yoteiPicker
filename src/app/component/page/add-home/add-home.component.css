@@ -14,3 +14,8 @@
   color: #4A4A4A;
   font-weight: bold;
 }
+
+a {
+  color: #FF773E;
+  text-decoration: underline;
+}
