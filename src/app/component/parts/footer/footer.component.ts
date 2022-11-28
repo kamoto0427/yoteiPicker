@@ -11,6 +11,7 @@ export class FooterComponent implements OnInit {
   public topFlg: boolean = false;
   public yoteiList: boolean = false;
   public categoryListFlg: boolean = false;
+  public pickUpFlg: boolean = false;
   public requestFlg: boolean = false;
 
   constructor(
@@ -31,6 +32,10 @@ export class FooterComponent implements OnInit {
 
   goCategoryList() {
     this.router.navigate(['categoryList']);
+  }
+
+  goPickUp() {
+    this.router.navigate(['pickUp']);
   }
 
   goRequest() {
@@ -54,6 +59,10 @@ export class FooterComponent implements OnInit {
 
     if (currentUrl === '/categoryList') {
       this.categoryListFlg  = true;
+    }
+
+    if (currentUrl === '/pickUp') {
+      this.pickUpFlg  = true;
     }
 
     if (currentUrl === '/request') {

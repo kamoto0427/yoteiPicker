@@ -23,8 +23,4 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['info']);
   }
 
-  goPickUp() {
-    this.router.navigate(['pickUp']);
-  }
-
 }
