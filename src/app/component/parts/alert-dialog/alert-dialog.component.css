@@ -6,6 +6,12 @@
   padding: 15px;
 }
 
+.dialog-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
 .delete-button {
   background-color: #f44336;
   color: #fff;
