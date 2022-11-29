@@ -1,0 +1,8 @@
+<h1 mat-dialog-title class="dialog-title">{{ data.title }}</h1>
+<div mat-dialog-content class="dialog-message">
+  {{ data.message }}
+</div>
+<div mat-dialog-actions class="dialog-button">
+  <button mat-button mat-dialog-close (click)="onClickClose()">キャンセル</button>
+  <button mat-button mat-dialog-close cdkFocusInitial class="delete-button" (click)="onClickOk()">削除する</button>
+</div>

@@ -15,6 +15,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
 import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 // Swiper
@@ -39,6 +40,7 @@ import { AccordionComponent } from './component/parts/accordion/accordion.compon
 import { ShareButtonComponent } from './component/parts/share-button/share-button.component';
 import { AddHomeScreenComponent } from './component/parts/add-home-screen/add-home-screen.component';
 import { AddHomeComponent } from './component/page/add-home/add-home.component';
+import { AlertDialogComponent } from './component/parts/alert-dialog/alert-dialog.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +63,7 @@ import { AddHomeComponent } from './component/page/add-home/add-home.component';
     ShareButtonComponent,
     AddHomeScreenComponent,
     AddHomeComponent,
+    AlertDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -75,6 +78,7 @@ import { AddHomeComponent } from './component/page/add-home/add-home.component';
     MatListModule,
     MatFormFieldModule,
     MatSnackBarModule,
+    MatDialogModule,
     CdkAccordionModule,
     SwiperModule,
   ],

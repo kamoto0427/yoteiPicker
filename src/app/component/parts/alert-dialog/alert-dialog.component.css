@@ -1,0 +1,12 @@
+.dialog-title {
+  font-weight: bold;
+}
+
+.dialog-message {
+  padding: 15px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
