@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { StorageService } from 'src/app/service/storage/storage.service';
+import { Yotei } from 'src/app/interface/yotei';
 
 @Component({
   selector: 'app-footer',
@@ -7,6 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  @Input() pickBudgeNumber: number;
 
   public topFlg: boolean = false;
   public yoteiList: boolean = false;
@@ -14,12 +17,19 @@ export class FooterComponent implements OnInit {
   public pickUpFlg: boolean = false;
   public requestFlg: boolean = false;
 
+  public yotei: Yotei[];
+
   constructor(
-    private router: Router
+    private router: Router,
+    private storageService: StorageService,
   ) { }
 
   ngOnInit(): void {
     this.iconFieldUnderLine();
+  }
+
+  ngDoCheck() {
+    this.feathYoteiPickLenght();
   }
 
   goTop() {
@@ -68,6 +78,15 @@ export class FooterComponent implements OnInit {
     if (currentUrl === '/request') {
       this.requestFlg = true;
     }
+  }
+
+  /**
+   * pickデータのlength数を取得する
+   */
+  public feathYoteiPickLenght() {
+    this.yotei = this.storageService.getLocalData();
+    const length = this.yotei.length;
+    this.pickBudgeNumber = length;
   }
 
 }

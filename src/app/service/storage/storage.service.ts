@@ -20,8 +20,8 @@ export class StorageService {
     let yoteiArray = [];
     for(let i = 0; i < localStorage.length; i++){
       const key = localStorage.key(i);
-      let kamoto = JSON.parse(localStorage.getItem('' + key)!);
-      yoteiArray.push(kamoto);
+      let yotei = JSON.parse(localStorage.getItem('' + key)!);
+      yoteiArray.push(yotei);
     }
     return yoteiArray;
   }

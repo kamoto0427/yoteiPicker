@@ -16,6 +16,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatBadgeModule } from '@angular/material/badge';
 import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 // Swiper
@@ -79,6 +80,7 @@ import { AlertDialogComponent } from './component/parts/alert-dialog/alert-dialo
     MatFormFieldModule,
     MatSnackBarModule,
     MatDialogModule,
+    MatBadgeModule,
     CdkAccordionModule,
     SwiperModule,
   ],

@@ -13,7 +13,7 @@
       <div class="icon-text">カテゴリー別</div>
     </div>
     <div class="icon-field" [ngClass]="{ 'icon-field-underline': pickUpFlg }">
-      <mat-icon class="icon" (click)="goPickUp()">bookmark</mat-icon>
+      <mat-icon class="icon" [matBadge]="pickBudgeNumber" matBadgeColor="warn" (click)="goPickUp()">bookmark</mat-icon>
       <div class="icon-text">PickUp一覧</div>
     </div>
     <div class="icon-field" [ngClass]="{ 'icon-field-underline': requestFlg }">

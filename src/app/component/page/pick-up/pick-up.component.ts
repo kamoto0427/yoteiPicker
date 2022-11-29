@@ -12,6 +12,7 @@ import { AlertDialogComponent } from 'src/app/component/parts/alert-dialog/alert
 })
 export class PickUpComponent implements OnInit {
 
+  public pickBudgeNumber: number;
   public yotei: Yotei[];
 
   constructor(
@@ -76,21 +77,5 @@ export class PickUpComponent implements OnInit {
       horizontalPosition: 'center', //'start' | 'center' | 'end' | 'left' | 'right'
       panelClass: 'pick-snackbar',
     });
-  }
-
-  public hoge() {
-    const dialogRef = this.dialog.open(AlertDialogComponent, {
-      width: '400px',
-      height: '250px',
-      data: {
-        title: 'Pickデータの削除',
-        message: 'Pickしたデータを全て削除してもよろしいでしょうか？'
-      },
-    });
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
-
   }
 }
